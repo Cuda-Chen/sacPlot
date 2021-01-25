@@ -20,14 +20,12 @@
 
 1. 引入d3、jquery、bootstrap 和 sacPlot.js、sacPlot.css
 ```javascript
-`<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-crossorigin="anonymous">`
-`<script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>`
-`<script src="https://d3js.org/d3.v6.min.js"></script>`
-`<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
-crossorigin="anonymous"></script>`
-`<link href="path/to/sacPlot.css" rel="stylesheet">`
-`<script src="path/to/sacPlot.js"></script>`
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+<script src="https://d3js.org/d3.v6.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<link href="path/to/sacPlot.css" rel="stylesheet">
+<script src="path/to/sacPlot.js"></script>
 ```
 2. 呼叫sacPlots().data()以路徑陣列當引數填入(title、legend可不呼叫),最後回傳回一個函數，呼叫後圖表會掛在指定節點下(預設body)
 
