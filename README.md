@@ -19,7 +19,7 @@
 ## 用法
 
 1. 引入d3、jquery、bootstrap 和 sacPlot.js、sacPlot.css
-    `<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+`<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
     <script src="https://d3js.org/d3.v6.min.js"></script>
@@ -34,7 +34,7 @@
 // chart data example
 	var paths = ['../data/A002.10.HLE', '../data/A002.10.HLN', '../data/A002.10.HLZ'];
 
-     var chart = sacPlots()
+	var chart = sacPlots()
             .data(paths)
             .title("TSMIP 10 A002 2020-01-01T00:00:00")
             .legend("HLE HLN HLZ")
