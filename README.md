@@ -18,7 +18,7 @@
 
 ## 用法
 
-1.引入d3、jquery、bootstrap 和 sacPlot.js、sacPlot.css
+1. 引入d3、jquery、bootstrap 和 sacPlot.js、sacPlot.css
     `<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
